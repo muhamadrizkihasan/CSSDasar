@@ -1,0 +1,38 @@
+div{
+    margin: 50px 50px 50px 50px; 
+}
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+}
+
+.tiga{
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+}
+
+/* 
+Margin vertikal akan mengambil nilai terbesar tapi,
+Margin horizontal akan digabung
+Jika minus margin maka elemen yang ada dibawahnya akan ikut terbawa
+
+Shorcut
+Contoh :
+1.margin: 50px; = Maka semua sisi akan menjadi 50
+2.margin: 50px 50px; = Maka yang pertama itu (atas & bawah) 
+                     yang kedua itu (kiri & kanan)
+3.margin: 50px 50px 50px; = Maka 1 = atas
+                                 2 = kiri & kanan
+                                 3 = bawah
+3.margin: 50px 50px 50px 50px; = Maka 1 = atas
+                                      2 = kanan
+                                      3 = bawah
+                                      4 = kiri
