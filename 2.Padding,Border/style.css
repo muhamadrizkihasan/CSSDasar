@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Yang lebih efektif cari web css reset mayerweb */
+
+div{
+    width: 190px;
+    height: 190px;
+    background-color: pink;
+    margin: 20px auto;
+    padding: 50px;
+    border: 5px dashed royalblue;
+}
+
+section{
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.satu{
+    background-color: yellow;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.dua{
+    background-color: aqua;
+    padding: 30px;
+    border: 5px dotted green;
+}
